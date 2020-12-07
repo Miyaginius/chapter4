@@ -39,3 +39,64 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+    
+}
+
+.page-title {
+    font-size: 5rem;
+    font-family: "philosopher" , serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.button {
+    font-size: 1.375rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button:hover {
+    background-color: #0090aa;
+}
+
+.big-bg {
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(images/main-bg.jpg),linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: luminosity;
+    /*background-image: linear-gradient(#c9ffbf, #ffafbd);*/
+    /*background-image: radial-gradient(#c9ffbf, #ffafbd);*/
+    /*background-color: #0bd;*/
+    /*background-blend-mode: soft-light;*/
+    min-height: 100vh;
+}
+
+#home .page-title {
+text-transform: none;
+}
+
